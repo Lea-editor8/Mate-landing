@@ -13,7 +13,7 @@ import Footer from '@components/Footer.astro';
 		<title>Astro Basics</title>
 		<link rel="stylesheet" href="/public/global.css" />
 	</head>
-	<body>
+	<body class="fondo-degrade">
 		<Header />
 		<main>
 			<slot />
@@ -22,3 +22,8 @@ import Footer from '@components/Footer.astro';
 		<Footer />
 	</body>
 </html>
+<style>
+    .fondo-degrade {
+        background-image: linear-gradient(to right top, #051937, #15265c, #392f80, #6633a0, #9a2bb9);
+    }
+</style>
