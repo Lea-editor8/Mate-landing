@@ -11,7 +11,7 @@ export default {
     extend: {
       colors: {
         // Paleta personalizada
-          primary: '#1eaaafff', // Azul base
+          primary: '#af1e1eff', // Azul base
           light: '#3B82F6',
           dark: '#1E3A8A'
       },
